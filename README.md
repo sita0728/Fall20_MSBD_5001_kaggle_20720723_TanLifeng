@@ -8,6 +8,8 @@ For each submission, run as follow: **Feature engineering.py, XGBoost.ipynb**
 
 ## Feature engineering (Feature engineering.ipynb)
 
+* pay attention to the file path
+
 Raw data: **train.csv, test.csv**
 
 Feature Extraction: run **Features.ipynb** save the new dataset
@@ -20,6 +22,8 @@ After that I extract 12 features. The highest correlationship feature is "if_rus
 
 ## Training model &Prediction (XGBoost.ipynb)
 
+* pay attention to the file path
+
 After comparing several models using cross validation, I chose xgboost as my baseline models and did fine tuning on it. By using GridSearchcv, I got one models.
 
 run **XGBoost.ipynb** and save fine-tuning model in **xgb_14.pkl**.
@@ -28,5 +32,5 @@ My final submissions is **reslut_xgb.csv**
 
 
 
-* pay attention to the file path
+
 
